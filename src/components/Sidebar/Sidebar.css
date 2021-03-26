@@ -28,3 +28,9 @@
   color: gray;
   border-radius: 5px;
 }
+
+.sidebar__input > input {
+  border: none;
+  background: transparent;
+  outline-width: 0;
+}
