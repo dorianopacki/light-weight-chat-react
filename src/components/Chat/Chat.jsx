@@ -3,6 +3,7 @@ import MicNoneIcon from "@material-ui/icons/MicNone";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 import "./Chat.css";
 import { IconButton } from "@material-ui/core";
+import { MessageBubble } from "./MessageBubble";
 
 export const Chat = () => {
   const [input, setInput] = useState("");
@@ -23,7 +24,7 @@ export const Chat = () => {
       </div>
 
       <div className="chat__messages">
-        <h2>This is a message</h2>
+        <MessageBubble content="This is a incoming message" />
       </div>
 
       <div className="chat__input">

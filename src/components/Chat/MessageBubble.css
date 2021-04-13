@@ -1,0 +1,15 @@
+.message {
+  font-size: 18px;
+  font-weight: 400;
+  border: 2px solid #dedede;
+  background-color: #05728f;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.message__time {
+  font-weight: 100;
+  font-size: 14px;
+}
