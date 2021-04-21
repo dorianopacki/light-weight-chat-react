@@ -1,0 +1,10 @@
+.widget__income_message {
+  display: flex;
+}
+
+.widget__income__message__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

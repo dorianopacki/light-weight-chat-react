@@ -2,14 +2,14 @@ import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./SidebarChat.css";
 
-export const SidebarChat = () => {
+export const SidebarChat = ({ groupName, content, time }) => {
   return (
     <div className="sidebarChat">
       <Avatar />
       <div className="sidebarChat__info">
-        <h3>Tytuł grupy</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur...</p>
-        <small>timestamp</small>
+        <h3>{groupName}</h3>
+        <p>{content}</p>
+        <small>{time}</small>
       </div>
     </div>
   );

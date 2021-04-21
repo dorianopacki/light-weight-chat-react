@@ -24,7 +24,7 @@ export const Chat = () => {
       </div>
 
       <div className="chat__messages">
-        <MessageBubble content="This is a incoming message" />
+        <MessageBubble content="This is a incoming message" time="12:02" />
       </div>
 
       <div className="chat__input">
