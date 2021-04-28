@@ -33,6 +33,7 @@ export const Chat = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             type="text"
+            placeholder="Type a message..."
           />
           <button onClick={sendMessage}>Send</button>
         </form>

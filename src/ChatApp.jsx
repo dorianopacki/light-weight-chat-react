@@ -7,7 +7,7 @@ export const ChatApp = () => {
     <div className="app">
       <Sidebar />
       <Chat />
-      <WidgetPop />
+      {/* <WidgetPop /> */}
       <WidgetMin />
     </div>
   );
