@@ -4,7 +4,7 @@ const MessageBubble = ({ content, time }) => {
   return (
     <div className="message">
       <p className="message__content">{content}</p>
-      <span className="message__time">{time}</span>
+      <small className="message__time">{time}</small>
     </div>
   );
 };
